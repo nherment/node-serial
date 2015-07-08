@@ -10,6 +10,8 @@ Usage
 
 SerialRunner
 ------------
+
+```
   var SerialRunner = require("serial").SerialRunner;
   var runner = new SerialRunner();
   
@@ -36,9 +38,12 @@ SerialRunner
       callback();
     }
   }
+```
 
 Parallel Runner
 ---------------
+
+```
   var ParallelRunner = require("serial").ParallelRunner;
   var runner = new ParallelRunner();
 
@@ -54,7 +59,7 @@ Parallel Runner
     // do smthg
     callback();
   }
-
+```
 
 MIT License
 ===========
